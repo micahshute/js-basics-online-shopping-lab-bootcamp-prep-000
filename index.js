@@ -24,9 +24,9 @@ function viewCart() {
   }
   var output = keys.length <= 0 ? `Your shopping cart is empty.` : `In your cart, you have `
   for(var i = 0 ; i < keys.length; i++){
-    if(i !== 0 & i !== keys.length - 1){
+    if(i !== 0 && i !== keys.length - 1){
       output += `, `
-    }else if(i === keys.length - 1){
+    }else if(i !== 0 && i === keys.length - 1){
       output += `, and ` 
     }
     var price = getValueForKey(keys[i])
