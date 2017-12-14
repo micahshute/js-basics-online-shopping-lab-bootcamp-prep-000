@@ -83,9 +83,9 @@ function getPriceForObj(obj){
   
 }
 setCart([]);
-// addToCart("stuff")
-// addToCart("moreStuff")
-// addToCart("lastThing")
+addToCart("stuff")
+addToCart("moreStuff")
+addToCart("lastThing")
 viewCart()
 total()
 removeFromCart("lastThing")
