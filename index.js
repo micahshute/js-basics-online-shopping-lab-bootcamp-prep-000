@@ -81,8 +81,8 @@ function placeOrder(cardNumber) {
 
 setCart([]);
 addToCart("stuff")
-// addToCart("moreStuff")
-// addToCart("lastThing")
+addToCart("moreStuff")
+addToCart("lastThing")
 viewCart()
 // total()
 // removeFromCart("lastThing")
