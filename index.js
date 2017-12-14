@@ -28,7 +28,7 @@ function viewCart() {
       output += `, `
     }else if(i !== 0 && i === keys.length - 1 && keys.length === 2){
       output += ` and ` 
-    }else if(i !== 0 $$ i === keys.length - 1){
+    }else if(i !== 0 && i === keys.length - 1){
       output += `, and `
     }
     var price = getValueForKey(keys[i])
