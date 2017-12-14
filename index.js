@@ -89,3 +89,4 @@ setCart([]);
 viewCart()
 total()
 removeFromCart("lastThing")
+placeOrder()
