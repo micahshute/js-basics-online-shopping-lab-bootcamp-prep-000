@@ -79,11 +79,11 @@ function placeOrder(cardNumber) {
   
 }
 
-// setCart([]);
-// addToCart("stuff")
+setCart([]);
+addToCart("stuff")
 // addToCart("moreStuff")
 // addToCart("lastThing")
-// viewCart()
+viewCart()
 // total()
 // removeFromCart("lastThing")
 // placeOrder(23461361345)
