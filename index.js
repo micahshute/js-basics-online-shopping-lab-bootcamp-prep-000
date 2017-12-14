@@ -62,7 +62,7 @@ function removeFromCart(item) {
     }
   }
   if(found === "false"){
-    return "That item is not in your cart."
+    console.log("That item is not in your cart.")
   }
   
   console.log(cart)
